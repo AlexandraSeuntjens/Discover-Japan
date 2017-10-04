@@ -1,0 +1,21 @@
+<% include header %>
+<a href="/" class="back"> &#x3C; &#x3C; Back to Homepage</a>
+
+  <div class="card">
+    <h3><%= blogposts.title %></h3>
+    <img class="blogPostImage" src="<%= blogposts.images[0]%>" alt="">
+    <p><%- blogposts.summary %></p>
+    <p><%- blogposts.body %></p>
+    <img class="blogPostImage" src="<%= blogposts.images[1]%>" alt="">
+    <p><%- blogposts.part1 %></p>
+    <img class="blogPostImage" src="<%= blogposts.images[2]%>" alt="">
+    <p><%- blogposts.part2 %></p>
+    <img class="blogPostImage" src="<%= blogposts.images[3]%>" alt="">
+    <p><%- blogposts.part3 %></p>
+    <img class="blogPostImage" src="<%= blogposts.images[4]%>" alt="">
+    <p><%- blogposts.part4 %></p>
+    <img class="blogPostImage" src="<%= blogposts.images[5]%>" alt="">
+    <p><%- blogposts.part5 %></p>
+  </div>
+
+<% include footer %>

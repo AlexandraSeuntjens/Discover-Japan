@@ -1,0 +1,12 @@
+<% include header %>
+  <div class="cards">
+    <% for (var i=0; i < blogposts.length; i++){%>
+      <a href="/<%= i %>">
+        <img src="<%= blogposts[i].images[0] %>" alt="">
+        <h1 class="home"><%= blogposts[i].title %></h1>
+      </a>
+        <p class="home2"><%= blogposts[i].summary %></p>
+    <% } %>
+  </div>
+
+  <% include footer %>
